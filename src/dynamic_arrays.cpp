@@ -52,6 +52,7 @@ void dynamicArrays() {
     std::cout << "Empty array created";
     // TODO: Call printArray(arr, count, capacity) to display the state
     // Expected output: "Empty array created  [](count=0, capacity=4)"
+    printArray(arr, count, capacity);
 
     // --- 2. Adding elements ---
     std::cout << "\n--- 2. Adding Elements ---" << '\n';
